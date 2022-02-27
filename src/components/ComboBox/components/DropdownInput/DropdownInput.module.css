@@ -1,0 +1,51 @@
+.dropdownInput {
+  display: inline-flex;
+  padding: 4px;
+  cursor: pointer;
+  border: 2px solid #e4e6e5;
+  border-radius: 4px;
+  background-color: white;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.dropdownInput:hover,
+.focus {
+  border: 2px solid #d1d1d1;
+}
+
+.edit,
+.button {
+  border: none;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+  height: 24px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  cursor: pointer;
+}
+
+.edit {
+  outline: none;
+  font-size: 60%;
+  padding: 1px 3px;
+}
+
+.button {
+  width: 20px;
+  outline: none;
+  color: rgb(0 90 156);
+}
+
+.button[aria-expanded='false'] svg {
+  transition: all 0.2s ease-in-out;
+  transform: rotate(0deg) translate(0, 0);
+}
+
+.button[aria-expanded='true'] svg {
+  transition: all 0.2s ease-in-out;
+  transform: rotate(180deg) translate(0, -3px);
+}

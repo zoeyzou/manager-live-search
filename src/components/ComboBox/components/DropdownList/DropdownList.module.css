@@ -1,0 +1,10 @@
+.listBox {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
