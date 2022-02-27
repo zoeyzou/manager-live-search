@@ -1,0 +1,34 @@
+.userDetail {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 100%;
+  width: 100%;
+  font-size: 12px;
+  padding-left: 6px;
+}
+
+.userDetail p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.userDetail span {
+  background-color: #d39c49;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+}
+
+.userDetail.highlight {
+  background-color: #f2fbf7;
+}
+
+.userDetail:hover {
+  background-color: #f1f1f1;
+}
