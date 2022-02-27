@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/manager-live-search/static/css/main.456cec60.css",
+    "main.js": "/manager-live-search/static/js/main.36053657.js",
+    "static/js/787.49c0faa3.chunk.js": "/manager-live-search/static/js/787.49c0faa3.chunk.js",
+    "index.html": "/manager-live-search/index.html",
+    "main.456cec60.css.map": "/manager-live-search/static/css/main.456cec60.css.map",
+    "main.36053657.js.map": "/manager-live-search/static/js/main.36053657.js.map",
+    "787.49c0faa3.chunk.js.map": "/manager-live-search/static/js/787.49c0faa3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.456cec60.css",
+    "static/js/main.36053657.js"
+  ]
+}
