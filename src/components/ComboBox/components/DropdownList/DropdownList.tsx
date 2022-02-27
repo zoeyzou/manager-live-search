@@ -32,8 +32,9 @@ export function DropdownList<T extends ItemBase>({
       {items.map((item, index) => (
         <ListItem
           key={item.id}
+          index={index}
           isActive={activeItemIndex === index}
-          onSelect={() => onSelectItem(index)}
+          onSelect={onSelectItem}
         >
           {renderItem(item, activeItemIndex === index)}
         </ListItem>

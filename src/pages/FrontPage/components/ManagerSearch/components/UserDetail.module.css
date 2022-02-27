@@ -11,6 +11,13 @@
 .userDetail p {
   margin-block-start: 0px;
   margin-block-end: 0px;
+  text-align: left;
+  color: #646466;
+  font-weight: 500;
+}
+
+.userDetail p:last-of-type {
+  font-weight: 300;
 }
 
 .userDetail span {
@@ -26,9 +33,13 @@
 }
 
 .userDetail.highlight {
-  background-color: #f2fbf7;
+  background-color: #f6fcfa;
+}
+
+.userDetail.highlight p:first-of-type {
+  color: #94c5b2;
 }
 
 .userDetail:hover {
-  background-color: #f1f1f1;
+  background-color: #f6fcfa;
 }

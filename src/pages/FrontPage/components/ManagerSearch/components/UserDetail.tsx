@@ -15,7 +15,7 @@ export const UserDetail: FC<Props> = ({ user, isHighlighted }) => (
     <span>{user.name.split(' ').map((part) => part[0].toUpperCase())}</span>
     <div>
       <p>{user.name}</p>
-      <p>{user.name}</p>
+      <p>{user.email || 'Missing email'}</p>
     </div>
   </div>
 )

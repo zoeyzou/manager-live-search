@@ -14,6 +14,18 @@ Other tools:
 
 - CSS modules: an out-of-the-box way of writing CSS from CRA
 
+# How to start
+
+To clone it locally:
+
+```
+Git clone https://github.com/zoeyzou/manager-live-search.git
+yarn install
+yarn start
+```
+
+To have a sneak peak, go to https://zoeyzou.github.io/manager-live-search/
+
 # Layout structure
 
 The general principle of the file layout is 'co-location' and 'recursive nesting'.
@@ -31,51 +43,51 @@ Because of the co-location principle, a component might have its own hook, compo
 
 ```
 ├── components/
-│ └── FancyComponent/
-│ ├── components/
-│ │ └── FancyComponentPart/
-│ │ ├── FancyComponentPart.tsx
-│ │ └── index.ts
-│ ├── hooks/
-│ │ ├── useFancyComponent.ts
-│ │ └── index.ts
-│ ├── utils/
-│ │ ├── someUtil.ts
-│ │ └── index.ts
-│ ├── FancyComponent.tsx
-│ ├── FancyComponent.module.css
-│ ├── FancyComponent.test.tsx
-│ └── index.ts
+│   └── FancyComponent/
+│       ├── components/
+│       │   └── FancyComponentPart/
+│       │       ├── FancyComponentPart.tsx
+│       │       └── index.ts
+│       ├── hooks/
+│       │   ├── useFancyComponent.ts
+│       │   └── index.ts
+│       ├── utils/
+│       │   ├── someUtil.ts
+│       │   └── index.ts
+│       ├── FancyComponent.tsx
+│       ├── FancyComponent.module.css
+│       ├── FancyComponent.test.tsx
+│       └── index.ts
 ├── pages/
-│ └── MyPage/
-│ ├── api/
-│ │ ├── fetchMyPage.ts
-│ │ └── index.ts
-│ ├── components/
-│ │ ├── MyPagePart/
-│ │ │ ├── MyPagePart.tsx
-│ │ │ ├── MyPagePart.test.tsx
-│ │ │ ├── MyPagePart.module.css
-│ │ │ └── index.ts
-│ │ └── index.ts
-│ ├── redux/
-│ │ ├── dataSlice.ts
-│ │ ├── viewSlice.ts
-│ │ ├── selectors.ts
-│ │ └── index.ts
-│ ├── hooks/
-│ │ ├── useMyPage.ts
-│ │ └── index.ts
-│ ├── MyPage.tsx
-│ ├── MyPage.test.tsx
-│ ├── MyPage.module.css
-│ └── index.ts
+│   └── MyPage/
+│       ├── api/
+│       │   ├── fetchMyPage.ts
+│       │   └── index.ts
+│       ├── components/
+│       │   ├── MyPagePart/
+│       │   │   ├── MyPagePart.tsx
+│       │   │   ├── MyPagePart.test.tsx
+│       │   │   ├── MyPagePart.module.css
+│       │   │   └── index.ts
+│       │   └── index.ts
+│       ├── redux/
+│       │   ├── dataSlice.ts
+│       │   ├── viewSlice.ts
+│       │   ├── selectors.ts
+│       │   └── index.ts
+│       ├── hooks/
+│       │   ├── useMyPage.ts
+│       │   └── index.ts
+│       ├── MyPage.tsx
+│       ├── MyPage.test.tsx
+│       ├── MyPage.module.css
+│       └── index.ts
 ├── store/
-│ ├── store.ts
-│ └── index.ts
+│   ├── store.ts
+│   └── index.ts
 ├── types/
-│ ├── globalTypes.ts
-│ └── index.ts
+│   ├── globalTypes.ts
+│   └── index.ts
 ├── App.tsx
 ├── index.ts
 └── index.css
